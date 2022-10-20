@@ -1,3 +1,4 @@
+
 public class FizzBuzz
 {
     public void run() {
@@ -6,6 +7,8 @@ public class FizzBuzz
         int c = 15;
         for (int i = 1; i <= 100; i++) {
             if (i == c) {
+                a += 3;
+                b += 5;
                 c += 15;
                 System.out.println("FizzBuzz");
             } else if (i == a) {
